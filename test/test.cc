@@ -1,7 +1,5 @@
 #include "log.h"
 #include "can.h"
-#include <linux/can.h>
-#include <unistd.h>
 
 void rx_callback(struct can_frame rx_frame) 
 {
